@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/BBTAdsManager.h</key>
 		<data>
-		0H2YC5+qD3WUB9vsR11po8e52Jg=
+		nzjHF2mxUL2ND/ljIR+U86iuBw4=
 		</data>
 		<key>Headers/BBTAdsResponse.h</key>
 		<data>
-		1RqhXwdGwi6WMbRqLMd+E2psAUo=
+		e2wEnK7+imyzPiUi4r0J4KIQUsQ=
 		</data>
 		<key>Headers/BBTAdsSDK.h</key>
 		<data>
@@ -67,6 +67,14 @@
 		<key>Headers/BBTPureImageAdView.h</key>
 		<data>
 		6RywfordYoSxpnKOzRYhBY8AFfM=
+		</data>
+		<key>Headers/BBTRewardedVideoAd.h</key>
+		<data>
+		Z+VDLx9r4hTw53/vMXLQJvGu5I4=
+		</data>
+		<key>Headers/BBTRewardedVideoManager.h</key>
+		<data>
+		nqVPRceXmj436tiOTBo3lHnTie8=
 		</data>
 		<key>Headers/BBTShakeAdView.h</key>
 		<data>
@@ -153,14 +161,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			avc1tJTRNsdsz1kvua0e/RvMPiPrZf9IQwny8vQOBtU=
+			rMGwh6wJ7rP197QHlMYTpoqlxUJhmzgaPVSyByydqjg=
 			</data>
 		</dict>
 		<key>Headers/BBTAdsResponse.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n3o0YamsY6qwXlZLaecKV56A4j1MwhDtI3ndAmflAxg=
+			Kb3E/6eVOGdzlXp8RobXOoJKKwvzTkRYTOaoIlj8rJM=
 			</data>
 		</dict>
 		<key>Headers/BBTAdsSDK.h</key>
@@ -245,6 +253,20 @@
 			<key>hash2</key>
 			<data>
 			jpiiCfYF5JWNVhZby6A/3lD12TZZ61DlKIQ5uzESOoo=
+			</data>
+		</dict>
+		<key>Headers/BBTRewardedVideoAd.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ys797PHXnx1sbS4hg6109iqKSjzT62WONH1WYi00RMg=
+			</data>
+		</dict>
+		<key>Headers/BBTRewardedVideoManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZCb9W0GCcihaHStTvEv1oTg3v9ej1kNMuzZFsrWmgik=
 			</data>
 		</dict>
 		<key>Headers/BBTShakeAdView.h</key>

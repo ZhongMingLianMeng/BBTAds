@@ -129,6 +129,10 @@ typedef void(^BBTAdRequestFailureBlock)(NSError *error);
 /// @return 曝光率阈值，返回百分比数值（例如：70.0表示70%）
 - (CGFloat)currentExposureRatio;
 
+/// 设置个性化推荐状态
+/// @param enabled YES-开启个性化推荐（默认） NO-关闭个性化推荐
+- (void)setPersonalizedState:(BOOL)enabled;
+
 @end
 
 NS_ASSUME_NONNULL_END
