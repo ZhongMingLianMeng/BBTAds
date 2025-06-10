@@ -15,10 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *version;           // 应用版本号码
 @property (nonatomic, copy) NSString *developer;         // 开发者
 @property (nonatomic, copy) NSString *privacyUrl;        // 隐私协议网址
+@property (nonatomic, strong) NSArray<BBTPermissionEntry *> *permissionList;  // 权限列表
 @property (nonatomic, copy) NSString *permissionsUrl;    // 权限URL
 @property (nonatomic, copy) NSString *functionDescUrl;   // 功能描述URL
-@property (nonatomic, copy) NSArray<BBTPermissionEntry *> *permissionList;  // 权限列表
-@property (nonatomic, strong) BBTAppComplianceInfo *appComplianceInfo;  // 合规六要素
 - (instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
@@ -45,17 +44,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface BBTTxtInfo : NSObject
 @property (nonatomic, copy) NSString *type;              // 素材类型标记，"TXT"
 @property (nonatomic, copy) NSString *content;           // 文本信息
-- (instancetype)initWithDictionary:(NSDictionary *)dict;
-@end
-
-// 视频信息
-@interface BBTVideoInfo : NSObject
-@property (nonatomic, copy) NSString *type;
-@property (nonatomic, copy) NSString *url;
-@property (nonatomic, assign) int width;
-@property (nonatomic, assign) int height;
-@property (nonatomic, assign) int duration;
-@property (nonatomic, assign) long long size;
 - (instancetype)initWithDictionary:(NSDictionary *)dict;
 @end
 
@@ -86,7 +74,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) BBTTrackInfo *trackInfo;   // 监控信息
 @property (nonatomic, strong) NSArray<BBTImgInfo *> *images;    // 图片类素材数组
 @property (nonatomic, strong) NSArray<BBTTxtInfo *> *texts;     // 文本类素材数组
-@property (nonatomic, strong) NSArray<BBTVideoInfo *> *videos;    // 视频类素材数组
 @property (nonatomic, strong) NSString *sourceLogo;
 @property (nonatomic, strong) NSString *sourceName;
 @property (nonatomic, strong) NSString *adId;

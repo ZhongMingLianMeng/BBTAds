@@ -26,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)registerAdForView:(UIView<BBTNativeAdRenderProtocol> *)view adData:(BBTFeedAdData *)adData;
 - (void)unregisterAdData:(BBTFeedAdData *)adData;
 
+// 新增：支持自渲染广告视图注册
+- (void)registerSelfRenderAdView:(UIView *)view adData:(BBTFeedAdData *)adData clickableViews:(NSArray<UIView *> *)clickableViews;
+
 @end
 
 @protocol BBTNativeAdRenderProtocol <NSObject>
