@@ -32,6 +32,17 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)reportError:(nullable NSString *)errorSummary
        errorDetails:(nullable NSString *)errorDetails;
 
+/// 设置 CAID（China Advertising ID）
+/// @param caid 中国广告标识符，类似苹果的 IDFA
++ (void)setCAID:(nullable NSString *)caid;
+
+/// 获取当前设置的 CAID
++ (nullable NSString *)CAID;
+
+/// 获取 PAID（拼多多 ID）
+/// @return 自动生成的 PAID，基于设备信息和初始化时间
++ (NSString *)PAID;
+
 @end
 
 NS_ASSUME_NONNULL_END

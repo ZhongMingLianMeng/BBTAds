@@ -133,6 +133,13 @@ typedef void(^BBTAdRequestFailureBlock)(NSError *error);
 /// @param enabled YES-开启个性化推荐（默认） NO-关闭个性化推荐
 - (void)setPersonalizedState:(BOOL)enabled;
 
+/// 设置 CAID（China Advertising ID）
+/// @param caid 中国广告标识符
+- (void)setCAID:(nullable NSString *)caid;
+
+/// 获取 PAID（拼多多 ID）
+- (NSString *)getPAID;
+
 @end
 
 NS_ASSUME_NONNULL_END
